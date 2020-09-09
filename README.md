@@ -1,0 +1,3 @@
+# JavaRestAssuredTemplate
+
+!!!!!===>EM CONSTRUÇÃO<===!!!!!# restAssured
