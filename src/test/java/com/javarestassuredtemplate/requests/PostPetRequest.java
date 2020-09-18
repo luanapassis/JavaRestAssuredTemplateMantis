@@ -7,15 +7,17 @@ import com.javarestassuredtemplate.tests.DTO.DtoPet;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import io.restassured.http.Method;
+import net.minidev.json.JSONObject;
 
 public class PostPetRequest extends RequestRestBase {
     public PostPetRequest(){
         requestService = "/pet";
         method = Method.POST;
+        url = "https://petstore.swagger.io/v2";
     }
 
-    public void setJsonBody(DtoPet request) throws JsonProcessingException {
-        DtoPet request2 = new DtoPet();
+    public void setJsonBody(JSONObject request) throws JsonProcessingException {
+
         /*
         String id,
                             String categoryId,

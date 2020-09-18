@@ -3,7 +3,6 @@ package com.javarestassuredtemplate.tests;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.javarestassuredtemplate.bases.TestBase;
-import com.javarestassuredtemplate.dbsteps.UsuariosDBSteps;
 import com.javarestassuredtemplate.requests.GetPetRequest;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -20,7 +19,7 @@ import java.util.ArrayList;
 public class GetPetTests extends TestBase {
     GetPetRequest getPetRequest;
 
-    @Test
+
     public void buscarPetExistente(){
         SoftAssert softAssert = new SoftAssert();
 

@@ -6,19 +6,14 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class DBUtils {
-    private static String getStringConnection(){
-        return "jdbc:mysql://"+
-                GlobalParameters.DB_URL +"\\"+GlobalParameters.DB_NAME;//exemplo MySQL
-    }
-
-    public static ArrayList<String> getQueryResult(String query){
+    public static ArrayList<String> retornaDadosQuery(String query){
         ArrayList<String> arrayList = null;
         Connection connection = null;
 
         try {
-            Class.forName("com.mysql.jdbc.Driver"); //exemplo para MySQL
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Statement stmt = null;
-            connection = DriverManager.getConnection(getStringConnection(), GlobalParameters.DB_USER, GlobalParameters.AUTHENTICATOR_PASSWORD);
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
             stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -55,16 +50,37 @@ public class DBUtils {
         return arrayList;
     }
 
-    public static void executeQuery(String query){
+    public static void executaQuery(String query){
         Connection connection = null;
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Statement stmt = null;
-            connection = DriverManager.getConnection(getStringConnection(), GlobalParameters.DB_USER, GlobalParameters.AUTHENTICATOR_PASSWORD);
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
             stmt = connection.createStatement();
             stmt.executeQuery(query);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally{
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    public static void executaMudancas(String query){
+        Connection connection = null;
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Statement stmt = null;
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
+
+            stmt = connection.createStatement();
+            stmt.executeUpdate(query);
 
         } catch (Exception e) {
             e.printStackTrace();

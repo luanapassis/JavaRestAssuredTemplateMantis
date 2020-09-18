@@ -1,9 +1,8 @@
 package com.javarestassuredtemplate.bases;
 
 import com.javarestassuredtemplate.GlobalParameters;
-import com.javarestassuredtemplate.steps.AutenticacaoSteps;
+import com.javarestassuredtemplate.dbsteps.DataBaseSteps;
 import com.javarestassuredtemplate.utils.ExtentReportsUtils;
-import org.codehaus.groovy.transform.tailrec.GotoRecurHereException;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -15,7 +14,11 @@ import java.lang.reflect.Method;
 public abstract class TestBase {
     @BeforeSuite
     public void beforSuite(){
+
         new GlobalParameters();
+        DataBaseSteps dataBaseSteps = new DataBaseSteps();
+        dataBaseSteps.cargaUsuario();
+        dataBaseSteps.cargaProjeto();
         ExtentReportsUtils.createReport();
         //AutenticacaoSteps.gerarToken(GlobalParameters.AUTHENTICATOR_USER, GlobalParameters.AUTHENTICATOR_PASSWORD); ==> caso a geração de token deva ser feita quando iniciar a bateria de testes
     }
