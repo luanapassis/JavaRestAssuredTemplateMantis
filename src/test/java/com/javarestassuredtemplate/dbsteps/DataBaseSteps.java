@@ -182,6 +182,19 @@ public class DataBaseSteps extends DBUtils{
         ArrayList<String> resultado = DBUtils.retornaDadosQuery(query);
         return resultado;
     }
+    public ArrayList<String> retornaTarefaSemDocumento()
+    {
+        String query = "SELECT * FROM mantis_bug_mantis\n" +
+                "WHERE id NOT IN(\n" +
+                "SELECT bm.id from mantis_bug_mantis bm \n" +
+                "INNER join mantis_bug_text_mantis btm \n" +
+                " ON bm.id = btm.id \n" +
+                "inner JOIN mantis_bug_file_mantis bfm\n" +
+                " ON bm.id = bfm.bug_id)\n" +
+                " ORDER BY RAND() LIMIT 1";
+        ArrayList<String> resultado = DBUtils.retornaDadosQuery(query);
+        return resultado;
+    }
 
     public String retornaidUsuario(String nome)
     {

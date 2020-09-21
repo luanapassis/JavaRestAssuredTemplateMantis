@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"  parallel="methods" thread-count="1" >
+    <test verbose="2" preserve-order="true" name="C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/src/test">
+        <classes>
+            <class name="com.javarestassuredtemplate.tests.issue.GetAllIssuesTests">
+                <methods>
+                    <include name="verificaQuantidadeRegistroPorPaginaDataDriven" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetAnIssueTests">
+                <methods>
+                    <include name="retornaTarefaInvalida" />
+                    <include name="retornaTarefaValida" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueAssignedForMeTests">
+                <methods>
+                    <include name="retornaTarefaAssociadaUsuario" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueFileSingleTests">
+                <methods>
+                    <include name="retornaTarefaSemDocumentoPorIdDocumento" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueFileTests">
+                <methods>
+                    <include name="retornaTarefaSemDocumento" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueForProjectTests">
+                <methods>
+                    <include name="retornaTodasTarefasPorProjeto" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueMonitoredByMeTests">
+                <methods>
+                    <include name="retornaTarefasMonitoradasPorMim" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueReportedByMeTests">
+                <methods>
+                    <include name="retornaTarefasReportadasPorMim" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.GetIssueUnassignedTests">
+                <methods>
+                    <include name="retornaTarefasSemUsuarioAssiciado" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.PostCreatIssueMinimalTests">
+                <methods>
+                    <include name="criaTarefaSucesso" />
+                    <include name="criaTarefaSemNome" />
+                    <include name="criaTarefaSemDescricao" />
+                    <include name="criaTarefaSemProjeto" />
+                    <include name="CriaTarefaProjetoInvalido" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.issue.PostCreatIssueTests">
+                <methods>
+                    <include name="criaTarefaCompletaSucesso" />
+                    <include name="criaTarefaCompletaSubProjetoSucesso" />
+                    <include name="criaTarefaCompletaSemNome" />
+                    <include name="criaTarefaCompletaSemDescricao" />
+                    <include name="criaTarefaCompletaSemProjeto" />
+                    <include name="criaTarefaCompletaProjetoIncorreto" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.lang.LangMultipleLocalizedTests">
+                <methods>
+                    <include name="retornaStringsBackToBugLink" />
+                    <include name="retornaStringUpdateSimpleLink" />
+                    <include name="retornaStringCategory" />
+                    <include name="retornaStringReproducibility" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.lang.LangTests">
+                <methods>
+                    <include name="retornaLinguagemUsuarioLogado" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.project.GetAProjectTests">
+                <methods>
+                    <include name="retornaProjetoPrincipal" />
+                    <include name="retornaSubProjeto" />
+                    <include name="retornaProjetoInvalido" />
+                    <include name="verificaStatusProjeto" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.project.GetAllProjectTests">
+                <methods>
+                    <include name="retornaTodosOsProjetos" />
+                    <include name="retornaTodosOsProjetosVerificaSubProjeto" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.users.CreateUsersTests">
+                <methods>
+                    <include name="criaUsuarioSucesso" />
+                    <include name="criaUsuarioSemNome" />
+                    <include name="criaUsuarioNivelDeAcessoInvalido" />
+                    <include name="criaUsuarioJaExistente" />
+                    <include name="criaUsuarioEmailJaExistente" />
+                    <include name="criaUsuarioEnabledTrue" />
+                    <include name="criaUsuarioEnabledFalse" />
+                    <include name="criaUsuarioProtectedTrue" />
+                    <include name="criaUsuarioProtectedFalse" />
+                    <include name="criaUsuarioVisualizador" />
+                    <include name="criaUsuarioRelator" />
+                    <include name="criaUsuarioAtualizador" />
+                    <include name="criaUsuarioDesenvolvedor" />
+                    <include name="criaUsuarioGerente" />
+                    <include name="criaUsuarioAdministrador" />
+                    <include name="criaUsuarioPerfilInvalido" />
+                </methods>
+            </class>
+            <class name="com.javarestassuredtemplate.tests.users.DeleteUserTests">
+                <methods>
+                    <include name="deletaUsuarioSucesso" />
+                    <include name="deletaUsuarioInexistente" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

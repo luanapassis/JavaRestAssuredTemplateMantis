@@ -2,46 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ba22a57-01ab-4fac-a825-e2cc774caa59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createIssueDTO/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/CreateUsersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/globalParameters.properties" beforeDir="false" afterPath="$PROJECT_DIR$/globalParameters.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javarestassuredtestngtemplate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javarestassuredtestngtemplate.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/bases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/bases/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/UsuariosDBSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/enums/AuthenticationType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/jsons/PostPetJson.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/AccessLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createUsersDTO/AccessLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/CreateUsersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createUsersDTO/CreateUsersDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/queries/retornaSenhaUsuarioQuery.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/PostPetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/PostPetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/CreatUsersRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/UserInfoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/UserInfoRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/steps/AutenticacaoSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/Testes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/CreatUsersTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/ttt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetIssueFileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetIssueFileTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,56 +51,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso">
-    <configuration name="DeleteUserTests.deletaUsuarioSucesso (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml">
+    <configuration name="C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javarestassuredtestngtemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarestassuredtemplate.tests.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.users" />
-      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.users.DeleteUserTests" />
-      <option name="METHOD_NAME" value="deletaUsuarioSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteUserTests.deletaUsuarioSucesso (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javarestassuredtestngtemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarestassuredtemplate.tests.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.users" />
-      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.users.DeleteUserTests" />
-      <option name="METHOD_NAME" value="deletaUsuarioSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteUserTests.deletaUsuarioSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javarestassuredtestngtemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarestassuredtemplate.tests.users.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.users" />
-      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.users.DeleteUserTests" />
-      <option name="METHOD_NAME" value="deletaUsuarioSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,7 +79,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostCreatIssueMinimalTests.criaTarefaSucesso (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetIssueFileTests.retornaTarefaSemDocumento" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javarestassuredtestngtemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarestassuredtemplate.tests.issue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.issue" />
+      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.issue.GetIssueFileTests" />
+      <option name="METHOD_NAME" value="retornaTarefaSemDocumento" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostCreatIssueMinimalTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javarestassuredtestngtemplate" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +107,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.issue" />
       <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.issue.PostCreatIssueMinimalTests" />
-      <option name="METHOD_NAME" value="criaTarefaSucesso" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostCreatIssueMinimalTests.criaTarefaSemNome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javarestassuredtestngtemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarestassuredtemplate.tests.issue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.issue" />
+      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.issue.PostCreatIssueMinimalTests" />
+      <option name="METHOD_NAME" value="criaTarefaSemNome" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostCreatIssueMinimalTests.criaTarefaSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostCreatIssueMinimalTests.criaTarefaSucesso (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javarestassuredtestngtemplate" />
       <extension name="coverage">
         <pattern>
@@ -193,19 +152,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.Geral" />
-      <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso" />
-      <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso (1)" />
-      <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso (2)" />
-      <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso" />
-      <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (1)" />
+      <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (4)" />
+      <item itemvalue="TestNG.GetIssueFileTests.retornaTarefaSemDocumento" />
+      <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSemNome" />
+      <item itemvalue="TestNG.PostCreatIssueMinimalTests" />
+      <item itemvalue="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso" />
-        <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (1)" />
-        <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso (2)" />
-        <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso (1)" />
-        <item itemvalue="TestNG.DeleteUserTests.deletaUsuarioSucesso" />
+        <item itemvalue="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" />
+        <item itemvalue="TestNG.PostCreatIssueMinimalTests" />
+        <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSemNome" />
+        <item itemvalue="TestNG.GetIssueFileTests.retornaTarefaSemDocumento" />
+        <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -430,23 +389,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java</url>
-          <line>187</line>
+          <line>200</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>39</line>
+          <line>51</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="88" />
+          <line>48</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="89" />
+          <line>78</line>
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

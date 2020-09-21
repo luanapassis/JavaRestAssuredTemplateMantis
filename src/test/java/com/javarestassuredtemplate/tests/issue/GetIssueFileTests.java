@@ -21,7 +21,7 @@ public class GetIssueFileTests extends TestBase {
     {
         dataBaseSteps = new DataBaseSteps();
 
-        ArrayList<String> tarefa = dataBaseSteps.retornaTarefaAleatoria();
+        ArrayList<String> tarefa = dataBaseSteps.retornaTarefaSemDocumento();
 
         String issueId = tarefa.get(0);
 
