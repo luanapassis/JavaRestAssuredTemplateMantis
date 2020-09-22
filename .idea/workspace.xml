@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba22a57-01ab-4fac-a825-e2cc774caa59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/ttt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetIssueFileTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetIssueFileTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml">
+  <component name="RunManager" selected="TestNG.GetAllIssuesTests">
     <configuration name="C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javarestassuredtestngtemplate" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -70,6 +64,29 @@
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllIssuesTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="javarestassuredtestngtemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarestassuredtemplate.tests.issue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.issue" />
+      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.issue.GetAllIssuesTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -132,39 +149,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostCreatIssueMinimalTests.criaTarefaSucesso (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="javarestassuredtestngtemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarestassuredtemplate.tests.issue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.javarestassuredtemplate.tests.issue" />
-      <option name="MAIN_CLASS_NAME" value="com.javarestassuredtemplate.tests.issue.PostCreatIssueMinimalTests" />
-      <option name="METHOD_NAME" value="criaTarefaSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.Geral" />
-      <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (4)" />
       <item itemvalue="TestNG.GetIssueFileTests.retornaTarefaSemDocumento" />
       <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSemNome" />
       <item itemvalue="TestNG.PostCreatIssueMinimalTests" />
       <item itemvalue="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" />
+      <item itemvalue="TestNG.GetAllIssuesTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GetAllIssuesTests" />
         <item itemvalue="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" />
         <item itemvalue="TestNG.PostCreatIssueMinimalTests" />
         <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSemNome" />
         <item itemvalue="TestNG.GetIssueFileTests.retornaTarefaSemDocumento" />
-        <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSucesso (4)" />
       </list>
     </recent_temporary>
   </component>

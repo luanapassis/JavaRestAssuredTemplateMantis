@@ -43,7 +43,7 @@ public class GetAllIssuesTests extends TestBase {
     public Object[][] testDataExample()
     {
 
-        ReadExcelFile configuration = new ReadExcelFile("C:\\Users\\Base2\\Desktop\\Ole\\javarestassuredtemplate\\javarestassuredtemplate-master\\src\\test\\resources\\testdata.xlsx");
+        ReadExcelFile configuration = new ReadExcelFile(System.getProperty("user.dir")+"\\src\\test\\resources\\testdata.xlsx");
         int rows = configuration.getRowCount(0);
 
         //2 é a quantidade de valores que será preenchido no for
