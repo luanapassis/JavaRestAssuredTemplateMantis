@@ -1,7 +1,5 @@
 package com.javarestassuredtemplate.utils;
 
-import com.javarestassuredtemplate.GlobalParameters;
-
 import java.sql.*;
 import java.util.ArrayList;
 

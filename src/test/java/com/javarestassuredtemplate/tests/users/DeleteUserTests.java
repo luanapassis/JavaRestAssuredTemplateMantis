@@ -1,6 +1,5 @@
 package com.javarestassuredtemplate.tests.users;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.javarestassuredtemplate.bases.TestBase;
 import com.javarestassuredtemplate.dbsteps.DataBaseSteps;
 import com.javarestassuredtemplate.requests.users.DeleteUserRequest;

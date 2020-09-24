@@ -1,8 +1,6 @@
 package com.javarestassuredtemplate.models.createUsersDTO;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.google.gson.annotations.SerializedName;
-import com.javarestassuredtemplate.models.createUsersDTO.AccessLevel;
 
 import java.io.Serializable;
 

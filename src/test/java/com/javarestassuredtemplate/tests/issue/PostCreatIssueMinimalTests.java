@@ -5,14 +5,11 @@ import com.javarestassuredtemplate.bases.TestBase;
 import com.javarestassuredtemplate.requests.issue.PostCreateIssueMinimalRequest;
 import com.javarestassuredtemplate.utils.GeneralUtils;
 import io.restassured.response.Response;
-import net.minidev.json.JSONArray;
 import net.minidev.json.JSONObject;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import javax.swing.text.Utilities;
-import java.util.List;
 import java.util.Map;
 
 public class PostCreatIssueMinimalTests extends TestBase {

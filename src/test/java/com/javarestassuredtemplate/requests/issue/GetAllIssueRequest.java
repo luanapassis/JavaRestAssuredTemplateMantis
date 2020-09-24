@@ -1,7 +1,6 @@
 package com.javarestassuredtemplate.requests.issue;
 
 import com.javarestassuredtemplate.bases.RequestRestBase;
-import com.javarestassuredtemplate.requests.project.GetAProjectRequest;
 import io.restassured.http.Method;
 
 public class GetAllIssueRequest extends RequestRestBase {

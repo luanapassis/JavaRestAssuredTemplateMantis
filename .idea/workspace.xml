@@ -3,7 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba22a57-01ab-4fac-a825-e2cc774caa59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/GetAllIssuesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/bases/RequestSoapBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/bases/RequestSoapBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createIssueDTO/CreateIssueDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createIssueDTO/CreateIssueDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createUsersDTO/CreateUsersDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/models/createUsersDTO/CreateUsersDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/GetPetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/PostPetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/GetAllIssueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/GetAllIssueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/GetIssueReportedByMeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/GetIssueReportedByMeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/PostCreateIssueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/issue/PostCreateIssueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/project/GetAllProjectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/project/GetAllProjectRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/CreateUsersRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/CreateUsersRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/DeleteUserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/users/DeleteUserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/DTO/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/DTO/DtoPet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/DTO/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/DeleteUserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/DeleteUserTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/ReadExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/utils/ReadExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GetAllIssuesTests">
+  <component name="RunManager" selected="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml">
     <configuration name="C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="javarestassuredtestngtemplate" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -159,8 +184,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetAllIssuesTests" />
         <item itemvalue="TestNG.C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml" />
+        <item itemvalue="TestNG.GetAllIssuesTests" />
         <item itemvalue="TestNG.PostCreatIssueMinimalTests" />
         <item itemvalue="TestNG.PostCreatIssueMinimalTests.criaTarefaSemNome" />
         <item itemvalue="TestNG.GetIssueFileTests.retornaTarefaSemDocumento" />
@@ -197,51 +222,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/GetPetTests.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/PostPetRequest.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/PostPetTests.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/requests/PostPetRequest.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/CreateUsersTests.java</url>
           <line>49</line>
           <option name="timeStamp" value="13" />
@@ -258,17 +238,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java</url>
-          <line>20</line>
+          <line>16</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java</url>
-          <line>22</line>
+          <line>18</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/UserInfoTests.java</url>
-          <line>27</line>
+          <line>23</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -298,37 +278,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/DeleteUserTests.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/DeleteUserTests.java</url>
-          <line>27</line>
+          <line>26</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java</url>
-          <line>64</line>
+          <line>63</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java</url>
-          <line>77</line>
+          <line>76</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java</url>
-          <line>76</line>
+          <line>75</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/project/GetAProjectTests.java</url>
-          <line>32</line>
+          <line>31</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -363,50 +343,53 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java</url>
-          <line>89</line>
+          <line>84</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java</url>
-          <line>93</line>
+          <line>88</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java</url>
-          <line>87</line>
+          <line>82</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueTests.java</url>
-          <line>238</line>
+          <line>233</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/users/DeleteUserTests.java</url>
-          <line>22</line>
+          <line>21</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/dbsteps/DataBaseSteps.java</url>
-          <line>200</line>
+          <line>199</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>51</line>
+          <line>48</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>48</line>
+          <line>45</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/javarestassuredtemplate/tests/issue/PostCreatIssueMinimalTests.java</url>
-          <line>78</line>
+          <line>75</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javarestassuredtestngtemplate$C__Users_Base2_Desktop_Ole_javarestassuredtemplate_master_JAVA_COM_DTO_MEXENDO_javarestassuredtemplate_master_testng_xml.ic" NAME="$PROJECT_DIR$/../../javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/testng.xml Coverage Results" MODIFIED="1600983416028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

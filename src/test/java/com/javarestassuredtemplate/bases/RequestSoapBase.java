@@ -5,7 +5,6 @@ import com.javarestassuredtemplate.enums.AuthenticationType;
 import com.javarestassuredtemplate.utils.ExtentReportsUtils;
 import com.javarestassuredtemplate.utils.RestAssuredUtils;
 import io.restassured.config.RestAssuredConfig;
-import io.restassured.http.Method;
 import io.restassured.response.Response;
 
 import java.util.HashMap;

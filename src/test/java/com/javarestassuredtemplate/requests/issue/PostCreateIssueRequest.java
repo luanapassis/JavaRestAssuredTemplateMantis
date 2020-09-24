@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.javarestassuredtemplate.bases.RequestRestBase;
 import com.javarestassuredtemplate.models.createIssueDTO.CreateIssueDTO;
-import com.javarestassuredtemplate.models.createUsersDTO.CreateUsersDTO;
 import io.restassured.http.Method;
 
 public class PostCreateIssueRequest extends RequestRestBase {

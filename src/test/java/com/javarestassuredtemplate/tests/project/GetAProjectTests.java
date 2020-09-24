@@ -2,7 +2,6 @@ package com.javarestassuredtemplate.tests.project;
 
 import com.javarestassuredtemplate.bases.TestBase;
 import com.javarestassuredtemplate.requests.project.GetAProjectRequest;
-import com.sun.xml.internal.ws.commons.xmlutil.Converter;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;

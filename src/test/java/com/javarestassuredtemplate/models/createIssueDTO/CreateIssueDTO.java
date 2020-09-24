@@ -1,6 +1,5 @@
 package com.javarestassuredtemplate.models.createIssueDTO;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class CreateIssueDTO {

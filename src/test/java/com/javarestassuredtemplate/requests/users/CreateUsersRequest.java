@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.javarestassuredtemplate.bases.RequestRestBase;
 import com.javarestassuredtemplate.models.createUsersDTO.CreateUsersDTO;
 import io.restassured.http.Method;
-import io.restassured.internal.mapping.JsonbMapper;
 
 public class CreateUsersRequest extends RequestRestBase {
 

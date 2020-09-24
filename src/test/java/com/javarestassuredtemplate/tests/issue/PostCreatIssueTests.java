@@ -4,17 +4,12 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.javarestassuredtemplate.bases.TestBase;
 import com.javarestassuredtemplate.models.createIssueDTO.*;
 import com.javarestassuredtemplate.requests.issue.PostCreateIssueRequest;
-import com.javarestassuredtemplate.tests.DTO.Tag;
 import com.javarestassuredtemplate.utils.GeneralUtils;
-import com.sun.xml.bind.v2.runtime.unmarshaller.TagName;
 import io.restassured.response.Response;
-import net.minidev.json.JSONArray;
-import net.minidev.json.JSONObject;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 

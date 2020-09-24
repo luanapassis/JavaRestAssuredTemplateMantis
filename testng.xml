@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite"  parallel="methods" thread-count="1" >
-    <test verbose="2" preserve-order="true" name="C:/Users/Base2/Desktop/Ole/javarestassuredtemplate-master JAVA COM DTO MEXENDO/javarestassuredtemplate-master/src/test">
+    <test verbose="2" preserve-order="true" name="javarestassuredtemplate/test">
         <classes>
             <class name="com.javarestassuredtemplate.tests.issue.GetAllIssuesTests">
                 <methods>

@@ -2,7 +2,6 @@ package com.javarestassuredtemplate.utils;
 import java.io.File;
 import java.io.FileInputStream;
 
-import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
