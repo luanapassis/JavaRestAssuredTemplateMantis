@@ -1,9 +1,9 @@
 # JavaRestAssuredTemplate
 
--Automação contém 50 scripts de testes que executam na api do Mantis LocalHost.
--Na instalação do mantis, utilizar o prefixo mantis_ nas tabelas do sistema.
--Contém construção de requisições a partir de objetos
--Contém construção de requisições a partir de objetos utilizando a biblioteca net.minidev.json
+	-Automação contém 50 scripts de testes que executam na api do Mantis LocalHost.
+	-Na instalação do mantis, utilizar o prefixo mantis_ nas tabelas do sistema.
+	-Contém construção de requisições a partir de objetos
+	-Contém construção de requisições a partir de objetos utilizando a biblioteca net.minidev.json
 
 ## Automação
 
@@ -22,19 +22,24 @@ Exemplo:
 
 *o paralelismo não está passando os casos de testes devido a conexão com o banco e criação de massa de teste no @before
 
+## Execução no Azuere
+
+Configuração do Agente local:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops&viewFallbackFrom=vsts
+
 ## Execução no Jenkins
 
 Configuração do build no Jenkins: 
--Baixar o maven Binary zip archive no site https://maven.apache.org/download.cgi 
--Descompactar numa pasta do sistema 
--Incluir o caminho xxx\apache-maven-x.x.x\bin na variavel path do windows
+	-Baixar o maven Binary zip archive no site https://maven.apache.org/download.cgi 
+	-Descompactar numa pasta do sistema 
+	-Incluir o caminho xxx\apache-maven-x.x.x\bin na variavel path do windows
 
--No jenkins Acessar Global Tool Configuration 
--Configurar o jkd e o maven exemplo https://subscription.packtpub.com/book/networking_and_servers/9781786465702/2/ch02lvl1sec16/configuring-java-and-maven-in-jenkins
+	-No jenkins Acessar Global Tool Configuration 
+	-Configurar o jkd e o maven exemplo https://subscription.packtpub.com/book/networking_and_servers/9781786465702/2/ch02lvl1sec16/configuring-java-and-maven-in-jenkins
 
--Criar um Job de maven 
--No Construir adicionar o caminho do POM.xml xxx\templateJava\pom.xml 
--No metas e opções usar o "clean test"
+	-Criar um Job de maven 
+	-No Construir adicionar o caminho do POM.xml xxx\templateJava\pom.xml 
+	-No metas e opções usar o "clean test"
 
 obs: é necessário usar os plugins do maven no POM e criar o arquivo testng.xml onde contem todos os casos de testes que serão executados.
 
